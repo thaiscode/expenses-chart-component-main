@@ -5,22 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
 
-  My balance
-  $921.48
+  <header class="header">
+    <div class="header__data">
+      <h2 class="header__title">My balance</h2>
+      <p class="header__value">$921.48</p>
+    </div>
+    
+    <img src="images/logo.svg" alt="" class="header__logo">
+  </header>
 
-  Spending - Last 7 days
+  <main>
+    <table>
+      <th>Spending - Last 7 days</th>
 
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+        
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+        <td>g</td>
+      </tr>
+    </table>
+    
+    <hr>
+
+    <section>
+      <div>
+        <h3>Total this month</h3>
+        <p>$478.33</p>
+      </div>
+
+      <div>
+        <p>+2.4%</p>
+        <p>from last month</p>
+      </div>
+    </section>
+  </main>
+
+<!--
   mon
   tue
   wed
@@ -28,16 +75,13 @@
   fri
   sat
   sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
-  <div class="attribution">
+-->
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/thaiscode">@thaiscode</a>.
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
 </body>
 </html>
