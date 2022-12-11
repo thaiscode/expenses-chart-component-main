@@ -20,49 +20,73 @@
 
   <header class="header">
     <div class="header__data">
-      <h2 class="header__title">My balance</h2>
+      <p class="header__title">My balance</p>
       <p class="header__value">$921.48</p>
     </div>
     
     <img src="images/logo.svg" alt="" class="header__logo">
   </header>
 
-  <main>
-    <table>
-      <th>Spending - Last 7 days</th>
+  <main class="main">
+   <h1 class="table__title">Spending - Last 7 days</h1>
+    
+   <section class="table">
 
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>
-      </tr>
-        
-      <tr>
-        <td>a</td>
-        <td>b</td>
-        <td>c</td>
-        <td>d</td>
-        <td>e</td>
-        <td>f</td>
-        <td>g</td>
-      </tr>
-    </table>
+    <div class="table__box">
+        <p class="table__data"></p>
+        <div class="table__column" style="height: 17.45%;"></div>
+        <p class="table__day"></p>
+    </div>
+
+    <div class="table__box">
+        <p class="table__data">$52.36</p>
+        <div class="table__column" style="height: 34.91%;"></div>
+        <p class="table__day"></p>
+    </div>
+
+    <div class="table__box">
+        <p class="table__data">$12.23</p>
+        <div class="table__column" style="height: 52.36%;"></div>
+        <p class="table__day"></p>
+    </div>
+
+    <div class="table__box">
+        <p class="table__data">$12.23</p>
+        <div class="table__column" style="height: 31.07%;"></div>
+        <p class="table__day"></p>
+    </div>
+
+    <div class="table__box">
+        <p class="table__data">$12.23</p>
+        <div class="table__column" style="height: 23.39%;"></div>
+        <p class="table__day"></p>
+    </div>
+
+    <div class="table__box">
+        <p class="table__data">$12.23</p>
+        <div class="table__column" style="height: 43.28%;"></div>
+        <p class="table__day"></p>
+    </div>
+
+    <div class="table__box">
+        <p class="table__data">$12.23</p>
+        <div class="table__column" style="height: 25.48%;"></div>
+        <p class="table__day"></p>
+    </div>
+</section>
+    
     
     <hr>
 
-    <section>
-      <div>
-        <h3>Total this month</h3>
-        <p>$478.33</p>
+    <section class="total">
+      <div class="total__boxOne">
+        <p class="boxOne__label" >Total this month</p>
+        <p class="boxOne__value">$478.33</p>
       </div>
 
-      <div>
-        <p>+2.4%</p>
-        <p>from last month</p>
+      <div class="total__boxTwo">
+        <p class="boxTwo__value">+2.4%</p>
+        <p class="boxTwo__label">from last month</p>
       </div>
     </section>
   </main>
@@ -82,6 +106,6 @@
   </footer>
 
   <!-- Script -->
-  <script src="script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>
