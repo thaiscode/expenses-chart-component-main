@@ -23,6 +23,9 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* HEADER */
@@ -98,13 +101,16 @@ body {
     letter-spacing: 1.5px;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    /*visibility: hidden;*/
+    visibility: hidden;
+}
+
+.hover {
+    visibility: visible;
 }
 
 .table__column {
     background-color: var(--soft-red);
     width: 35px;
-    height: 100px; /*Adicionar altura pra cada um com js*/
     border-radius: 5px;
 }
 
