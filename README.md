@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expenses-chart-component-5LHE6CLTmy)
 - Live Site URL: [Live site](https://thaiscode.github.io/expenses-chart-component-main/)
 
 ## My process
@@ -65,5 +65,3 @@ I will continue with my studies focused on pure javascript.
 
 - Website - [thaiscode](https://github.com/thaiscode)
 - Frontend Mentor - [@thaiscode](https://www.frontendmentor.io/profile/thaiscode)
-
-
