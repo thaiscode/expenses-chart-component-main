@@ -11,16 +11,25 @@ let dayArr = Array.from(dayBox)
 let date = new Date().getDay()
 
 //changing day of week to start at 0 instead of 1
-transformDate()
+date -= 1
 
 //column height
-columnHeight()
+for (let i = 0; i <= 6; i++) {
+    columnArr[i].style.height = 
+    data[i].amount + '%'
+}
 
 //changing column color according to current weekday
-columnColor()
+for (let i = 0; i <= dayArr.length; i++) {
+    if (i === date) {
+    columnArr[date].style.backgroundColor = "var(--cyan)"
+    } 
+}
 
 //defining the name of the days
-days()
+for (let i = 0; i <= 6; i++) {
+    dayArr[i].innerHTML = `${data[i].day}`
+}
 
 //adding data
 addData()
@@ -28,44 +37,7 @@ addData()
 //Mouse over data
 eventListener()
 
-
-
-//changing day of week to start at 0 instead of 1
-function transformDate() {      
-    /*if (date == 1) {
-        date = 0
-    } else if (date == 2) {
-        date = 1
-    } else if (date == 3) {
-        date = 2
-    } else if (date == 4) {
-        date = 3
-    } else if (date == 5) {
-        date = 4
-    } else if (date == 6) {
-        date = 5
-    } else if (date == 7) {
-        date = 6
-    }*/
-
-    date -= 1
-}
-
-//changing column color according to current weekday
-function columnColor() {
-    for (let i = 0; i <= dayArr.length; i++) {
-        if (i === date) {
-        columnArr[date].style.backgroundColor = "var(--cyan)"
-        } 
-    }
-}
-
-//defining the name of the days
-function days() {
-    for (let i = 0; i <= 6; i++) {
-        dayArr[i].innerHTML = `${data[i].day}`
-    }
-}
+//FUNCTIONS
 
 //adding data
 function addData() {
@@ -74,14 +46,6 @@ function addData() {
 
     for (let i = 0; i <= 6; i++) {
         numbersHoverArr[i].innerHTML = `$${data[i].amount}`
-    }
-}
-
-//column height
-function columnHeight() {
-    for (let i = 0; i <= 6; i++) {
-        columnArr[i].style.height = 
-        data[i].amount + '%'
     }
 }
 
