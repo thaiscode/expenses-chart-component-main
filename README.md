@@ -29,12 +29,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](./screenshot/mobile.png)
+![Desktop](./screenshot/desktop.png)
+![Desktop hover](./screenshot/desktop_active.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://thaiscode.github.io/expenses-chart-component-main/)
 
 ## My process
 
